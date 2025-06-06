@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>924</width>
+    <height>784</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(82, 132, 255);</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>530</y>
+     <width>581</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:  rgb(0, 9, 43);
+font: 75 8pt &quot;Arial&quot;;
+border: 1px groove black;
+font: 11pt;
+border-radius: 6px;
+color: rgb(19, 1, 44);
+color: rgb(82, 132, 255);</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Email</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Phone No.</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Gender</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DOB</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Address</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Post</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Salary</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>921</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">text-decoration: underline;
+color: rgb(31, 77, 186);
+font: 25pt &quot;Arial Rounded MT Bold&quot;;
+font: 25pt &quot;Times New Roman&quot;;
+background-color: rgb(255, 255, 255);
+border: 3px solid rgb(31, 77, 186);
+border-radius: 10px;
+</string>
+   </property>
+   <property name="text">
+    <string>EMPLOYEE MANAGEMENT</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnToggleTable">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>680</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color:  rgb(0, 9, 43);
+font: 10pt &quot;Bell MT&quot;;
+border: 1px groove rgb(0, 9, 43);
+</string>
+   </property>
+   <property name="text">
+    <string>Show Table</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>90</y>
+     <width>641</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="lName">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 9, 43);
+font: 10pt &quot;Arial Rounded MT Bold&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Name:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="txtName">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+margin: 4px;
+padding: 6px;
+border:none;
+border-radius: 10px;
+
+
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter your full name here</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lEmail">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 9, 43);
+font: 10pt &quot;Arial Rounded MT Bold&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Email:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="txtEmail">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+margin: 4px;
+padding: 6px;
+border:none;
+border-radius: 10px;
+
+
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter your valid email address</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lMobileno">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 9, 43);
+font: 10pt &quot;Arial Rounded MT Bold&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Phone no:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="txtMobileno">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+margin: 4px;
+padding: 6px;
+border:none;
+border-radius: 10px;
+
+
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter your valid phone number</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lGender">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 9, 43);
+font: 10pt &quot;Arial Rounded MT Bold&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Gender:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QComboBox" name="txtCombobox">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+margin: 4px;
+padding: 6px;
+border:none;
+border-radius: 10px;
+
+
+</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>-Select Gender--</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Male</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Female</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Other</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="lDob">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 9, 43);
+font: 10pt &quot;Arial Rounded MT Bold&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>DOB:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QDateEdit" name="txtDate">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+margin: 4px;
+padding: 6px;
+border:none;
+border-radius: 10px;
+
+
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="lAddress">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 9, 43);
+font: 10pt &quot;Arial Rounded MT Bold&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Address:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QTextEdit" name="txtAddress">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+margin: 4px;
+padding: 6px;
+border:none;
+border-radius: 10px;
+
+
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter your current address</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 9, 43);
+font: 10pt &quot;Arial Rounded MT Bold&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Post:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="txtPost">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+margin: 4px;
+padding: 6px;
+border:none;
+border-radius: 10px;
+
+
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 9, 43);
+font: 10pt &quot;Arial Rounded MT Bold&quot;;
+background-color: none;
+</string>
+      </property>
+      <property name="text">
+       <string>Salary:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="txtSalary">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+margin: 4px;
+padding: 6px;
+border:none;
+border-radius: 10px;
+
+
+</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnAdd">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>680</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color:  rgb(0, 9, 43);
+font: 10pt &quot;Bell MT&quot;;
+border: 1px groove rgb(0, 9, 43);</string>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-70</x>
+     <y>460</y>
+     <width>1001</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../OneDrive/Desktop/tempedit.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>510</y>
+     <width>481</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../OneDrive/Desktop/temp12.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>110</y>
+     <width>16</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: none;</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>110</y>
+     <width>16</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: none;</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_4</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>label_7</zorder>
+  <zorder>btnToggleTable</zorder>
+  <zorder>formLayoutWidget</zorder>
+  <zorder>btnAdd</zorder>
+  <zorder>line</zorder>
+  <zorder>line_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
