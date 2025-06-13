@@ -88,14 +88,38 @@ employee-management-system/
 ├── README.md               # Project documentation
 
 
+🔍 ![Screenshot](EM_PIC/filename.png)
+EM_PIC/
+  ├── 1.png
+  ├── 2.png
+  ├── 3.png
+  ├── Dashboard.png
+  ├── ManageEmployee.png
+  ├── Salary.png
+  ├── Attendance.png
+  ├── AddEmpDone.png
+  ├── SearchWin.png
+  ├── SearchDone.png
+  ├── UpdateDone.png
+  ├── DeleteConfirmation.png
+  ├── DeleteDone.png
+  ├── HRWorksTaskAddes.png
+  ├── ToDoListSaveChanges.png
+  ├── SalaryShowTable.png
+  ├── AttendanceAdded.png
+
+
+
 📌 Future Improvements
 	- Email notifications for attendance
 	- Export salary and attendance reports to PDF
 	- Admin role with user access controls
 	- Charts/Graphs for analytics
 
+
 📝 License
 This project is open-source under the MIT License.
+
 
 🙋‍♀️ Author
 Created by Khushi Singh
